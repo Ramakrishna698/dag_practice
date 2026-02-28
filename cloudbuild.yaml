@@ -3,4 +3,4 @@ steps:
   args:
     - 'cp'
     - 'dags/*.py'
-    - 'gs://demo-bucket-deployer/dags/'
+    - 'gs://us-central1-deployer-airflo-7ce23b6e-bucket/dags/'
