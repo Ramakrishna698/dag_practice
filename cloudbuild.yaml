@@ -1,0 +1,6 @@
+steps:
+- name: 'gcr.io/cloud-builders/gsutil'
+  args:
+    - 'cp'
+    - 'dags/*.py'
+    - 'gs://demo-bucket-deployer/dags/'
