@@ -7,7 +7,7 @@ from datetime import datetime
 with DAG(
     dag_id="demo_auto_deploy",
     start_date=datetime(2024,1,1),
-    schedule_interval="@hourly",
+    schedule_interval="@daily",
     catchup=False
 ) as dag:
 
